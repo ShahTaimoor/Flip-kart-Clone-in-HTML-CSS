@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(241, 242, 244);
+    
+}
+.navbar{
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+background-color: white;
+}
+/*   Box1 */
+.logo-icon{
+   
+    height: 50px;
+    width: 100px;
+    
+  
+   
+}
+.logo{
+   background-image: url("/th.jpg");
+   height: 50px;
+   width: 100%;
+   font-size: rem;
+   background-size: cover;
+
+}
+
+/* Box 2*/
+.search-icon{
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+   
+    
+}
+.icon-search{
+    background-color: rgb(211, 208, 208);
+    padding: 8px 8px 8px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    font-size: 1.2rem;
+    width: 44px;
+height: 40px;
+    color: white;
+    
+    
+}
+.search-input{
+    height: 40px;
+   width: 100%;
+    outline: none;
+    border: none;
+    font-size: 0.85rem;
+    padding-left: 2px;
+    background-color: rgb(211, 208, 208);
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    
+}
+
+/*     Box 3  */
+
+.login-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-login{
+    margin-right: 8px;
+    font-size: 1.2rem;
+}
+.text-icon{
+color: grey;
+
+}
+
+.down-arrow{
+    border: none;
+    margin-bottom: 6px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+}
+
+/* Box 4*/
+.cart-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.bag-icon{
+    font-size: 1.2rem;
+   margin-right: 12px;
+}
+/*  Another section  */
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.navbar-address
+{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-top: 10px;
+height: 150px;
+width: 98%;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+background-color: white;
+text-align: center;
+}
+.box .image img{
+width: 40px;
+}
+
+.box-content p{
+    
+    margin-top: 10px;
+    font-size: 0.9rem;
+    
+}
+
+/*Another Section*/
+.hero-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content img{
+margin-top: 10px;
+width: 98%;
+
+}
+
+/*  Another Section*/
+.shop-section{
+    height: 350px;
+  
+background-color: white;
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    width: 98%;
+    margin: 20px  auto;
+    
+}
+
+.uppertext{
+    font-size: 1.2rem;
+    padding-top: 20px;
+    padding-left: 32px;
+
+}
+.box-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+.box1{
+    height: 250px;
+    width: 14%;
+    border: 2px solid black;
+    
+    
+}
+.box-content1 img{
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.lowertext{
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*Footer*/
+
+.footer-panel1{
+    height: 280px;
+    background-color: black;
+    width: 98%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        width: 98%;
+    
+}
+.footer-panel1 p{
+    color: #878787;
+    margin-bottom: 10px;
+}
+.footer-panel1 a{
+    line-height: 1.2;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 0.7rem;
+}
+.footer-panel1 ul:nth-child(4){
+border-left: 2px solid gray;
+height: 150px;
+padding-left: 50px;
+
+}
+.footer-panel2{
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        width: 98%;
+height: 50px;
+width: 98%;
+margin: 0 auto;
+border-top: 0.5px solid gray;
+color: white;
+}
+.footer-panel3-ul{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-panel3-ul li{
+    list-style: none;
+    margin-top: 15px;
+}
+
